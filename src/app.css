@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Condensed:wght@300&display=swap");
+.body {
+  font-family: "Roboto Condensed" sans-serif;
+}
+/************* LOGO ***********/
+.logo {
+  width: 5rem;
+  height: 5rem;
+}
+/************ NAVAR ***********/
+nav a.nav-link {
+  /* font-weight: 500; */
+  letter-spacing: 0.0375rem;
+  cursor: pointer;
+}
+nav ul li {
+  margin-left: 0;
+  text-transform: uppercase;
+}
