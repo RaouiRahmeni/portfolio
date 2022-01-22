@@ -18,7 +18,7 @@
 
 ## CREDIT TO
 
-You can fork this repo to modify and make changes of your own. credit goes t [Soumyajit4419](https://github.com/soumyajit4419).check him out Thanks!
+You can fork this repo to modify and make changes of your own. credit goes to [Soumyajit4419](https://github.com/soumyajit4419).check him out Thanks!
 
 ## Built With
 
