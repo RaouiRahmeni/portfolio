@@ -1,33 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import axios from "axios";
 import pdf from "../../Assets/Raoui_Rahmeni_Resume_Ang.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
-  // const uri = "https://export-download.canva.com/mOrhY/DAE1gpmOrhY/1041/0-16687020962.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20220115%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220115T153253Z&X-Amz-Expires=86968&X-Amz-Signature=d6835754306a827a8019b22925cd4f8cb0ec97b0ae0b6e1ba1c9f6d5dd589585&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Raoui%2520Resume%2520V4.pdf&response-expires=Sun%2C%2016%20Jan%202022%2015%3A42%3A21%20GMT";
-  // const [spojRank, upadteSpojRank] = useState(0);
-  // const [hackerrank, upadteHackerank] = useState(0);
-  // const [sem, upadateSem] = useState(0);
-  // const [cgpa, upadteCgpa] = useState(0);
-
-  // useEffect(() => {
-  //   axios
-  //     .get(uri)
-  //     .then((res) => {
-  //       upadteSpojRank(res.data.message[0].spojRank);
-  //       upadteHackerank(res.data.message[1].hackerrank);
-  //       upadteCgpa(res.data.message[2].cgpa);
-  //       upadateSem(res.data.message[3].sem);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // }, []);
-
   return (
     <Container fluid className="resume-section">
       <Particle />
