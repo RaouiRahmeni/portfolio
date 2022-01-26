@@ -3,17 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
 import newway from "../../Assets/Projects/newway.JPG";
 import storyshore from "../../Assets/Projects/storyshore.JPG";
 import caryaah from "../../Assets/Projects/caryaah.JPG";
 import ipicshare from "../../Assets/Projects/ipicshare.JPG";
 import funvibes from "../../Assets/Projects/funvibes.JPG";
-
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
