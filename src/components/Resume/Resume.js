@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import pdf from "../../Assets/Raoui_Rahmeni_Resume_Ang.pdf";
+import pdf from "../../Assets/Raoui_Rahmeni_Resume's_Ang.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -21,7 +21,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="intern as associate HIR [ReBootKamp (RBK) Tunisia]"
+              title="internship as instruvtor"
               date="10/2021 - 12/2021"
               content={[
                 "Understand the principles of extreme Learning and use Socratic dialog tO guide discovery.",
